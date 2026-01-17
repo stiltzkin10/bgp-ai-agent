@@ -1,0 +1,11 @@
+local:
+  asn: 65001
+  router_id: "1.1.1.1"
+  port: 1179
+peers:
+  - ip: "127.0.0.1"
+    remote_as: 65002
+    hold_time: 90
+originated_prefixes:
+  - "10.0.0.0/24"
+  - "172.16.0.0/16"

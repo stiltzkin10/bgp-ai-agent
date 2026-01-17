@@ -1,0 +1,15 @@
+2026-01-17 14:43:21,271 - BGPServer - INFO - Initialized BGP Server with ASN 65002, Router ID 2.2.2.2
+2026-01-17 14:43:21,271 - BGPServer - INFO - BGP Speaker listening on ('0.0.0.0', 1791)
+2026-01-17 14:43:21,271 - BGPServer - INFO - Initiating connection to 127.0.0.1:1790
+2026-01-17 14:43:21,271 - MgmtServer - INFO - Management Server listening on /tmp/bgp_agent_peer2.sock
+2026-01-17 14:43:21,271 - BGPServer - INFO - Connected to 127.0.0.1:1790
+2026-01-17 14:43:21,271 - BGPSession-2.2.2.2 - INFO - TCP Connection established
+2026-01-17 14:43:21,271 - BGPSession-2.2.2.2 - INFO - Sending OPEN message
+2026-01-17 14:43:21,272 - BGPSession-2.2.2.2 - INFO - Received message: 1 in State: BGPState.OPEN_SENT
+2026-01-17 14:43:21,272 - BGPSession-2.2.2.2 - INFO - Negotiated Hold Time: 180, Remote AS: 65001
+2026-01-17 14:43:21,272 - BGPSession-2.2.2.2 - INFO - Received message: 4 in State: BGPState.OPEN_CONFIRM
+2026-01-17 14:43:21,272 - BGPSession-2.2.2.2 - INFO - BGP Session ESTABLISHED
+2026-01-17 14:43:21,272 - BGPSession-2.2.2.2 - INFO - Sending UPDATE with prefixes: ['20.0.1.0/24', '20.0.2.0/24']
+2026-01-17 14:43:21,272 - BGPSession-2.2.2.2 - INFO - Received message: 2 in State: BGPState.ESTABLISHED
+2026-01-17 14:43:21,272 - BGPSession-2.2.2.2 - INFO - Received UPDATE: 8 bytes NLRI
+2026-01-17 14:43:21,272 - BGPSession-2.2.2.2 - INFO - Updated RIB with routes: ['10.0.1.0/24', '10.0.2.0/24']

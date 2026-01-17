@@ -1,0 +1,13 @@
+local:
+  asn: 65001
+  router_id: "1.1.1.1"
+  port: 1790
+  socket_path: "/tmp/bgp_agent_peer1.sock"
+peers:
+  - ip: "172.17.0.2"
+    remote_as: 65002
+    hold_time: 180
+    port: 179
+originated_prefixes:
+  - "10.0.1.0/24"
+  - "10.0.2.0/24"
