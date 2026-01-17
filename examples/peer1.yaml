@@ -4,10 +4,10 @@ local:
   port: 1790
   socket_path: "/tmp/bgp_agent_peer1.sock"
 peers:
-  - ip: "172.17.0.2"
+  - ip: "127.0.0.1"
     remote_as: 65002
     hold_time: 180
-    port: 179
+    port: 1791
 originated_prefixes:
   - "10.0.1.0/24"
   - "10.0.2.0/24"
