@@ -40,7 +40,7 @@ uv run main.py examples/peer1.yaml
 
 The example peer1.yaml and peer2.yaml can be used to start two BGP speakers on the same machine. They will peer with each other.
 
-Start to terminals and run:
+Start two terminals and run:
 
 ```bash
 uv run python main.py examples/peer1.yaml
